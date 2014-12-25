@@ -142,7 +142,7 @@ main = function() {
     avoidText.renderable = false;
   };
   over = function() {
-    window.location.href="objc://"+"gameOver:/0"; //by decamincow
+//  window.location.href="objc://"+"gameOver:/0"; //by decamincow
     gameOver = true;
     gameOverText.renderable = true;
     resetText.renderable = true;
