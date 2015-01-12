@@ -10,6 +10,16 @@
     <meta name="format-detection" content="email=no"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0"/>
 
+    <style type="text/css">
+    {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none; / Disable selection/copy in UIWebView */
+    }
+    </style>
+    <script type="text/javascript">
+        document.ontouchmove = function(e) {e.preventDefault()};
+    </script>
+
     <style>
         html,body{
             padding: 0;
